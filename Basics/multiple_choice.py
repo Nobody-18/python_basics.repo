@@ -4,7 +4,10 @@ class Question:
         self.answer = answer
 
 
-question_prompt = ["What color are apples\n a.red b.purple c.yellow\n\n", "What color are bananas \n a.teel b.yelllow c.orange\n\n", "What color are oranges\n a.red b.orange c.blue"]
+question_prompt = ["""bWhat color are apples\n a.red b.purple c.yellow\n\n"""
+, """What color are bananas \n a.teel b.yelllow c.orange\n\n"""
+, """What color are oranges\n a.red b.orange c.blue\n
+"""]
 questions = [
     Question(question_prompt[0], "a"),
     Question(question_prompt[1], "b"),
